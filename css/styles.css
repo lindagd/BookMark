@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lobster+Two&family=Noto+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: #f5f5f5;
+  font-family: 'Noto Serif', serif;
+}
+
+main {
+  position: relative;
+}
+
+#nome, h1 {
+  font-family: 'Lobster Two', cursive;
+}
+
+h1 {
+  color: #25364b;
+  font-size: 40px;
+
+}
+
+#barra {
+  cursor: default;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #b2b7bd;
+  font-size: 1.5em;
+  line-height: 30px;
+  font-family: monospace;
+}
+
+#barra i {
+  cursor: pointer;
+  position: absolute;
+  font-size: 30px;
+  right: 20px;
+  top: 10px;
+  transition: all 0.5s ease;
+}
+
+.fechada #barra i {
+  font-size: 36px;
+}
+
+.fechada #nome {
+  opacity: 0;
+}
+
+.sidebar-perfil {
+  font-family: 'Inconsolata', serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 180px;
+  height: 100%;
+  height: 100%;
+  background: #25364b;
+  transition: all 0.5s ease;
+}
+
+.sidebar-perfil.fechada {
+  width: 70px;
+  padding: 0 2px 0 5px;
+}
+
+.dados-usuario {
+  margin-top: 40px;
+  text-align: center;
+  color: #C8D4E3;
+}
+
+.fechada .dados-usuario h2, .fechada .dados-usuario h3{
+  display: none;
+}
+
+.fechada .foto-perfil {
+  margin-top: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+.foto-perfil {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.menu-principal {
+  width: 100%;
+  position: relative;
+}
+
+.menu-li {
+  position: absolute;
+  margin-top: 36px;
+  width: 100%;
+}
+
+.menu-li li {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+}
+
+.btn-menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.btn-menu i {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.fechada .btn-menu {
+  justify-content: center;
+}
+
+.fechada .menu-opcao{
+  display: none;
+}
+
+.menu-rodape {
+  position: absolute;
+  bottom: 12px;
+  width: 100%;
+}
+
+.links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.menu-rodape i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.menu-rodape a {
+  display: flex;
+  align-items: center;
+  color: #C8D4E3;
+}
+
+.fechada .menu-rodape {
+  width: 70px;
+}
+
+.fechada .menu-rodape a {
+  justify-content: center;
+}
+
+.main-page {
+  width: calc(100% - 80px);
+  margin-left: 80px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 32px;
+}
+
+.livros {
+  margin: 32px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  row-gap: 40px;
+  column-gap: 60px;
+}
+
+.livro {
+  position: relative;
+  background-color: #4e6077;
+  width: 160px;
+  height: 256px;
+  cursor: default;
+}
+
+.livro img {
+  width: 160px;
+  height: 256px;
+}
+
+.livro .titulo {
+  cursor: pointer;
+  width: 156px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  background-color: #4e6077d0;
+  color: #fff;
+  text-align: center;
+  padding: 2px;
+  position: absolute;
+  bottom: 0;
+}

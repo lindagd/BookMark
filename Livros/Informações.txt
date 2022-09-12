@@ -1,0 +1,11 @@
+Título, Autor(a), Ano, Páginas, ISBN
+"Harry Potter e a Pedra Filosofal", "J.K. Rowling", "1999", "224", "9788532511010"
+"Garota Exemplar", "Gillian Flynn", "2013", "448", "9788580572902"
+"Capitães da Areia", "Jorge Amado", "256", "256", "9788501005304"
+"Clube do Livro dos Homens", "Lyssa Kay Adams", "2019", "320", "9786555650907"
+"O Conto da Aia", "Margaret Atwood", "1985", "368", "9788532520661"
+"A Culpa é das Estrelas", "John Green", "2013", "288", "9788580573800"
+"1984", "George Orwell", "1949", "335", "9786555522785"
+"O Pequeno Príncipe", "Antoine de Saint-Exupéry", "1943", "96", "9788522030828"
+"Divina Comédia", "Dante Alighieri", "1320", "560", "9786555800333"
+"A Metamorfose", "Franz Kafka", "1915", "112", "9786587435725"
